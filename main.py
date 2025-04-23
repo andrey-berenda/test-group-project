@@ -4,6 +4,7 @@ from dataclasses import dataclass
 class User:
   first_name: str
   last_name: str
+  second_name: str | None = None
 
 
 def awesome_function():
