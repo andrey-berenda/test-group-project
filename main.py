@@ -12,5 +12,5 @@ def awesome_function():
 
 
 
-def create_user(first_name: str, last_name: str) -> User:
-  return User(first_name, last_name)
+def create_user(first_name: str, last_name: str, second_name: str | None) -> User:
+  return User(first_name=first_name, last_name=last_name, second_name=second_name)
